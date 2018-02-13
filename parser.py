@@ -7,7 +7,7 @@ import json
 dataset_name = 'PoC-Robert'
 
 
-client = ApifyClient({'APIFY_TOKEN': token, 'APIFY_DEFAULT_DATASET_ID': dataset_name})
+client = ApifyClient({'APIFY_DEFAULT_DATASET_ID': dataset_name})
 
 print(client.getOptions())
 
