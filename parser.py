@@ -5,7 +5,7 @@ from py2_apify import ApifyClient
 import json
 
 dataset_name = 'PoC-Robert'
-token = '8FSpARrChe6Ezw7JZzhkkmYrk'
+
 
 client = ApifyClient({'APIFY_TOKEN': token, 'APIFY_DEFAULT_DATASET_ID': dataset_name})
 
