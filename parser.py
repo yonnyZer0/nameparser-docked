@@ -4,7 +4,7 @@ from nameparse import TextProcessingPipeline
 from py2_apify import ApifyClient
 import json
 
-dataset_name = 'PoC-Robert'
+dataset_name = 'PoC-forrester'
 
 
 client = ApifyClient({'APIFY_DEFAULT_DATASET_ID': dataset_name})
